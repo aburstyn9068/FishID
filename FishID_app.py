@@ -65,7 +65,7 @@ fish_image = None
 
 # take_photo = st.button("ID Fish")
 # if take_photo:
-fish_image = st.camera_input('')
+fish_image = st.camera_input("Take photo", label_visibility="hidden")
 if fish_image:
     #st.image(fish_image)
     img = image.load_img(fish_image, target_size = (160, 160))
