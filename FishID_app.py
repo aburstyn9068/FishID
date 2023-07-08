@@ -59,7 +59,8 @@ def get_region():
 
 region = get_region()
 
-st.write(f"You are currently fishing in the {region} region")
+st.write(f"Selecet your fishing region from the menu on the left.")
+st.write(f"You are currently fishing in the {region} region.")
 
 fish_image = None
 
